@@ -1,0 +1,12 @@
+[
+    { "order": 1, "text": "I feel energetic and ready to face the day.", "name": "q1", "type": "positive" },
+    { "order": 2, "text": "I have been sleeping well and waking up refreshed.", "name": "q2", "type": "positive" },
+    { "order": 3, "text": "I feel motivated to complete my daily tasks.", "name": "q3", "type": "positive" },
+    { "order": 4, "text": "I have been able to focus on things I start.", "name": "q4", "type": "positive" },
+    { "order": 5, "text": "I feel connected to the people around me.", "name": "q5", "type": "positive" },
+    { "order": 6, "text": "I have found joy or satisfaction in small things lately.", "name": "q6", "type": "positive" },
+    { "order": 7, "text": "I have felt overwhelmed by stress.", "name": "q7", "type": "negative" },
+    { "order": 8, "text": "I feel confident in handling challenges that come my way.", "name": "q8", "type": "positive" },
+    { "order": 9, "text": "I have been able to enjoy activities I usually like.", "name": "q9", "type": "positive" },
+    { "order": 10, "text": "I feel hopeful and positive about the future.", "name": "q10", "type": "positive" }
+  ]
