@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: wellness-ai-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: GROQ_API_KEY
+        value: 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
+      - key: MONGODB_URI
+        value: mongodb+srv://aashritharaj26:ashu@cluster0.dorl1nm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 
