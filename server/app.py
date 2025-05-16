@@ -43,7 +43,7 @@ mood_questionnaire_collection = db['mood_questionnaire']
 # Initialize the LLM
 llm = ChatGroq(
     temperature=0.7,  # Increased for more friendly responses
-    groq_api_key="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",
+    groq_api_key="GROQ_API_KEY",
     model_name="llama-3.3-70b-versatile"
 )
 
