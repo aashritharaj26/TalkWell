@@ -34,7 +34,7 @@ def predict_mood():
     return jsonify({"predicted_mood": mood})
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://aashritharaj26:ashu@cluster0.dorl1nm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("MONGO_DB_CONNECTION_URL")
 db = client['wellness_ai']
 mood_collection = db['mood_tracking']
 mood_report_collection = db['mood_reports']  # New collection for mood reports
